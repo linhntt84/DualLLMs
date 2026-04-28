@@ -1,0 +1,13 @@
+experiment_id: gsm8k_prompting_v1
+design_id: D0
+dataset_name: gsm8k
+dataset_split: test
+num_samples: 20
+output_dir: outputs/gsm8k_prompting_v1
+
+llm2_model_name: Qwen/Qwen2.5-Math-7B-Instruct
+llm2_prompt_id: d0_direct_llm2
+llm2_decoding:
+  temperature: 0.0
+  top_p: 1.0
+  max_new_tokens: 512
